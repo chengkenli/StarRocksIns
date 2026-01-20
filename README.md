@@ -67,7 +67,7 @@ metadb:
 server:
   port: 服务端口
   loadhtmlglob: 巡检报告生成的地址
-  loadstatic: 巡检报告生成时需要的静态文件
+  loadstatic: 巡检报告生成时需要的静态文件（解压static.zip包，然后指定到存放static文件夹的绝对路径）
   privateuser: ssh登录到fe、be节点的用户，免密（日志、参数、配置文件巡检需要）
   privatekey: ssh私钥文件（日志、参数、配置文件巡检需要）
   auditlog: 审计日志表
