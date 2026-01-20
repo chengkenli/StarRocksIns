@@ -16,7 +16,7 @@ metadb:
 
 server:
   port: 19111
-  loadhtmlglob: /u1/dlopsnas/chengken/insp/*
+  loadhtmlglob: /u1/dlopsnas/chengken/insp/*.html
   loadstatic: /u1/dlopsnas/chengken/insp/static
   privateuser: starrocks
   privatekey: /u/users/starrocks/.ssh/id_rsa
