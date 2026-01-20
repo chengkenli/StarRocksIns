@@ -8,7 +8,7 @@ metadb:
 
 server:
   port: 19332
-  loadhtmlglob: /u1/dlopsnas/chengken/insp/*
+  loadhtmlglob: /u1/dlopsnas/chengken/insp/*.html
   loadstatic: /u1/dlopsnas/chengken/insp/static
   privateuser: starrocks
   privatekey: /u/users/svccndlopsns/.ssh/id_rsa
