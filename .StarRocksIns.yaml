@@ -1,0 +1,28 @@
+
+metadb:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: **************1.
+  base: chengken.starrocks_information_connections
+
+server:
+  port: 19332
+  loadhtmlglob: /u1/dlopsnas/chengken/insp/*
+  loadstatic: /u1/dlopsnas/chengken/insp/static
+  privateuser: starrocks
+  privatekey: /u/users/svccndlopsns/.ssh/id_rsa
+  auditlog: audit.starrocks_audit_log
+
+subject:
+  log: chengken.starrocks_information_inspection_log
+  monitor: chengken.starrocks_information_inspection_monitor
+  avgs: chengken.starrocks_information_inspection_avgs
+  conf: chengken.starrocks_information_inspection_conf
+  olap: chengken.starrocks_information_inspection_olap
+
+
+
+log:
+  path: '/u/users/svccndlopsns/chengken/log'
+
