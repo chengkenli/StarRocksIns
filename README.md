@@ -2,7 +2,7 @@ StarRocks Inspection
 
 这是一个支持StarRocks自动巡检的工具，支持日志巡检、机器巡检、配置巡检、服务巡检、内表巡检...，然后生成巡检结论与评分。
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-11-25-56-image.png)
+![](img/2026-01-20-11-25-56-image.png)
 
 # Config-yaml
 
@@ -36,7 +36,7 @@ log:
 
 ## Options：
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-11-29-41-image.png)
+![](img/2026-01-20-11-29-41-image.png)
 
 ### Service
 
@@ -83,14 +83,14 @@ subject:
 
 启动巡检：
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-20-56-image.png)
+![](img/2026-01-20-13-20-56-image.png)
 
 ```
 ./StarRocksIns -s <集群名称> -agent
 ./StarRocksIns -s sr-scct   -agent
 ```
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-31-13-image.png)
+![](img/2026-01-20-13-31-13-image.png)
 
 访问报告：
 
@@ -98,7 +98,7 @@ subject:
 ./StarRocksIns -service
 ```
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-33-00-image.png)
+![](img/2026-01-20-13-33-00-image.png)
 
 ```
 然后在浏览器打开：http://127.0.0.1:19111/sr-scct
@@ -106,24 +106,24 @@ subject:
 
 首页
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-35-08-image.png)
+![](img/2026-01-20-13-35-08-image.png)
 
 日志巡检
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-36-08-image.png)
+![](img/2026-01-20-13-36-08-image.png)
 
 节点巡检
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-36-42-image.png)
+![](img/2026-01-20-13-36-42-image.png)
 
 参数巡检
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-37-22-image.png)
+![](img/2026-01-20-13-37-22-image.png)
 
 配置巡检
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-37-48-image.png)
+![](img/2026-01-20-13-37-48-image.png)
 
 内表巡检
 
-![](C:\Users\c0l0f9l\SDK\StarRocksIns\img\2026-01-20-13-43-14-image.png)
+![](img/2026-01-20-13-43-14-image.png)
